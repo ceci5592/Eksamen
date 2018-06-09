@@ -30,6 +30,18 @@ h2 {
     font-size: 22px;
 }
 
+.skole p {
+    font-family: 'Abel', sans-serif;
+    color: #555;
+    font-size: 20px;
+}
+
+.arbejde p {
+    font-family: 'Abel', sans-serif;
+    color: #555;
+    font-size: 20px;
+}
+
 p {
     font-family: 'Abel', sans-serif;
     color: white;
@@ -46,8 +58,6 @@ figcaption {
 }
 
 /* Links */
-
-.link {}
 
 .link a:link {
     background-color: #013220;
@@ -133,6 +143,27 @@ figcaption {
     padding-left: 75px;
 }
 
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .content_column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .content_column .info {
+    flex-grow: 1;
+    flex-basis: 100px;
+    padding-right: 10px;
+}
+
+.content .content_column .uddannelse {
+    flex-grow: 1;
+    flex-basis: 100px;
+    padding-left: 10px;
+}
 
 /* Navigation */
 
@@ -327,4 +358,81 @@ a {
     flex-basis: 100px;
     padding-left: 15px;
     padding-bottom: 20px;
+}
+
+/* Skill bar */
+
+* {
+    box-sizing: border-box
+}
+
+.cv {
+    width: 90%;
+    background-color: #C8C8C8;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+.skillbar {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 22px;
+    padding-bottom: 50px;
+}
+
+.skillbar .hoejre img {
+    height: 405px;
+    width: 390px;
+    border-radius: 50%;
+}
+
+.venstre {
+    flex-grow: 1;
+    flex-basis: 650px;
+}
+
+.hoejre {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.html {
+    width: 90%;
+    background-color: #555;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+}
+
+.javascript {
+    width: 70%;
+    background-color: #555;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+}
+
+.photoshop {
+    width: 60%;
+    background-color: #555;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+}
+
+.indesign {
+    width: 80%;
+    background-color: #555;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+}
+
+.premiere {
+    width: 70%;
+    background-color: #555;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
 }
