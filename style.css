@@ -11,11 +11,128 @@ hr {
     border: none;
 }
 
+li {
+    color: white;
+}
+
 /* Skrifttyper o.l. */
 
-.mySlides {
-    display: none;
+h1 {
+    font-family: 'Raleway Dots', cursive;
+    color: white;
+    font-size: 4.5em;
+    font-weight: 300;
 }
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    color: white;
+    font-size: 18px;
+    padding-right: 22px;
+}
+
+figcaption {
+    font-family: 'Abel', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+}
+
+/* Links */
+
+.link {}
+
+.link a:link {
+    background-color: #013220;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+}
+
+/* Collapsible */
+
+.collapsible {
+    background-color: #C8C8C8;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible:after {
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 18px;
+    transition: max-height 0.2s ease-out;
+    background-color: #C8C8C8;
+}
+
+.content .projekter {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.content .projekter .cph_dox {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 260px;
+}
+
+.content .projekter .responsive {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 425px;
+}
+
+.content .projekter .stil {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 260px;
+}
+
+.content .projekter .animation {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 260px;
+}
+
+.content .projekter .kea_app {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 75px;
+}
+
 
 /* Navigation */
 
@@ -196,4 +313,18 @@ a {
     background: white;
     box-shadow: 0 4px 18px rgba(0, 0, 0, .1);
     border: none;
+}
+
+.sectionwrapper .temabeskrivelse {
+    flex-grow: 1;
+    flex-basis: 100px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.sectionwrapper .overvejelser {
+    flex-grow: 1;
+    flex-basis: 100px;
+    padding-left: 15px;
+    padding-bottom: 20px;
 }
