@@ -17,7 +17,7 @@
 <!-- Navigation -->
 
 <body>
-    <header>
+    <div class="header" id="myHeader">
         <nav>
             <ul>
                 <li><a href="index.html">Forside</a></li>
@@ -36,7 +36,7 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </div>
 
     <br />
     <hr /><br />
@@ -79,8 +79,11 @@
             <div class="info">
                 <h2>Hvem er jeg?</h2>
                 <p>Mit navn er Cecilie Wig, jeg er netop fyldt 24 år, og så er jeg bosat på et kollegie i Ørestad. Til daglig læser jeg til multimediedesigner på KEA - Københavns Erhvervsakademi, og i min fritid arbejder jeg som Sales Advisor i H&M på Fisketorvet.</p>
-                <p>Jeg har altid et smil på læben, let til grin og trang til at fordybe (læs: nørde) mig i enten noget kodning eller et sjovt projekt i Photoshop. Jeg ligger mange frivillige timer i Kollegierådet på mit kollegie hvert år, og så elsker jeg is. Jeg er utrolig perfektionistisk, og stopper ikke med et projekt, før jeg er helt tilfreds.</p>
+                <p>Jeg har altid et smil på læben, let til grin og trang til at fordybe mig (læs: nørde) i enten noget kodning eller et sjovt projekt i Photoshop. Jeg ligger mange frivillige timer i Kollegierådet på mit kollegie hvert år, og så elsker jeg is. Jeg er utrolig perfektionistisk, og stopper ikke med et projekt, før jeg er helt tilfreds.</p>
                 <p>Udover at arbejde mange timer i H&M i min fritid, så tilbringer jeg også meget tid sammen med familie og venner; enten på kollegiet, på en gåtur rundt om søerne eller hjemme i min mormors stue. Jeg er en kæmpe film- og serienørd, så hvis du ikke finder mig nogle af førnævnte steder, så sidder jeg nok klistret til en skærm, og ser gamle kultklassikere eller spanske gyserfilm.</p>
+                <p>Hvis du tænker, at jeg er den rette person til dit projekt, så kontakt mig endelig, og ellers må du sende en brevdue til Ørestad: </p>
+                <p>Mail: wig.cecilie@gmail.com</p>
+                <p>Tlf.: 60210692</p>
             </div>
             <div class="uddannelse">
                 <h2>Uddannelse</h2>
@@ -108,28 +111,23 @@
     <br />
     <hr /><br />
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="style.js"></script>
+    <footer>
+        <div id="footer">
+            <div class="sectionwrapper">
+                <div class="column_info">
+                    <p>Dette site er lavet i forbindelse med 1. semester DK - F18 eksamen på multimedieuddannelsen, KEA <br> © Cecilie Wig, 2018 </p>
+                </div>
 
-</body>
-
-<footer>
-    <div id="footer">
-        <div class="sectionwrapper">
-            <div class="column_info">
-                <p>Dette site er lavet i forbindelse med 1. semester DK - F18 eksamen på multimedieuddannelsen, KEA <br> © Cecilie Wig, 2018 </p>
-            </div>
-
-            <div class="column_socialmedia">
-                <a href="https://www.facebook.com/cecilie.wig" class="c-link c-link--facebook c-tooltip" aria-label="Facebook">
+                <div class="column_socialmedia">
+                    <a href="https://www.facebook.com/cecilie.wig" class="c-link c-link--facebook c-tooltip" aria-label="Facebook">
                 <svg class="c-icon"><use xlink:href="#icon--facebook"></use></svg>
                 </a>
 
-                <a href="https://www.instagram.com/ceciliewig/" class="c-link c-link--instagram c-tooltip" aria-label="Instagram">
+                    <a href="https://www.instagram.com/ceciliewig/" class="c-link c-link--instagram c-tooltip" aria-label="Instagram">
                 <svg class="c-icon"><use xlink:href="#icon--instagram"></use></svg>
                 </a>
 
-                <svg style="display: none">
+                    <svg style="display: none">
                 <symbol id="icon--facebook" viewBox="0 0 24 24">
                 <path d="M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" />
                 </symbol>
@@ -138,10 +136,14 @@
                 <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
                 </symbol>
           </svg>
+                </div>
             </div>
         </div>
-    </div>
+    </footer>
 
-</footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="style.js"></script>
+
+</body>
 
 </html>

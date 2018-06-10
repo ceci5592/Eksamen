@@ -1,3 +1,5 @@
+/* Collapsible */
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -11,4 +13,21 @@ for (i = 0; i < coll.length; i++) {
             content.style.maxHeight = content.scrollHeight + "px";
         }
     });
+}
+
+/* Navigation */
+
+window.onscroll = function () {
+    myFunction()
+};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
+    }
 }
